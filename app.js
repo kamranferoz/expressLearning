@@ -31,6 +31,6 @@ app.get("/", function(request, response) {
     app.use(function(request, response) {
     response.status(404).render("404");
     });
-    http.createServer(app).listen(80, function() {
-    console.log("Guestbook app started on port 80.");
+    http.createServer(app).listen(8080, function() {
+    console.log("Guestbook app started on port 8080.");
     });
